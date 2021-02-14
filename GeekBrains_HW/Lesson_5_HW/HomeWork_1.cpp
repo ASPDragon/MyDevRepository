@@ -8,7 +8,6 @@ void swap(int &var1, int &var2){
 
 int main(int argc, char *argv[])
 {
-    //1
     int var1 = 1, var2 = 0, i;
     int *p1 = &var1;
     int *p2 = &var2;
