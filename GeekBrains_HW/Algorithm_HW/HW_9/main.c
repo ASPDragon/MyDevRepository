@@ -137,7 +137,7 @@ void taskOne(){
 typedef int boolean;
 
 int cursor = -1;
-B Stack[SIZE];
+B Stack[SIZEBINARY];
 
 void decToBin(B number){
     if(number >= 2)
@@ -148,7 +148,7 @@ void decToBin(B number){
 }
 
 boolean push(B number){
-    if(cursor < SIZE){
+    if(cursor < SIZEBINARY){
         Stack[++cursor] = number;
         decToBin(number);
         printf("\n");
