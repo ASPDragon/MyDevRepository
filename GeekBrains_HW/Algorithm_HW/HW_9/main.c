@@ -134,8 +134,6 @@ void taskOne(){
     printQueue();
 }
 
-// Реализовать перевод из десятичной в двоичную систему счисления с использованием стека.
-
 typedef int boolean;
 
 int cursor = -1;
