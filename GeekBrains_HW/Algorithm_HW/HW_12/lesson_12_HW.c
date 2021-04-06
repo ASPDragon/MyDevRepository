@@ -222,16 +222,16 @@ void runForest(BinTreeIntNode *tree, BinTreeIntNode **arr, int size, int branche
 }
 
 // 3
-boolean binTreeSearchRecursive(BinTreeIntNode *root, int value)
+BinTreeIntNode* binTreeSearchRecursive(BinTreeIntNode *root, int value)
 {
     BinTreeIntNode *current = root;
     if(current == NULL)
     {
-        return false;
+        return NULL;
     }
     if(current->key == value)
     {
-        return true;
+        return current;
     }
 
     if(root->key >= value)
@@ -244,7 +244,7 @@ boolean binTreeSearchRecursive(BinTreeIntNode *root, int value)
     }
     if(current == NULL)
     {
-        return false;
+        return NULL;
     }
 }
 
@@ -292,7 +292,7 @@ int main()
     printf("%s", "Please enter the number to search: ");
     scanf("%d", &val);
     printf("\n");
-    printf("The result of the search of %d in tree is %s \n", val, binTreeSearchRecursive(tree, val) ? "True" : "False");
+    printf("The result of the search of %d in tree is %s \n", val, binTreeSearchRecursive(tree, val));
     freeBinTree(tree);
     return 0;
 }
