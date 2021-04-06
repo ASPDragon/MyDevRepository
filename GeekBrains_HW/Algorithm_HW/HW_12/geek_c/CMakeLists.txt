@@ -1,0 +1,1 @@
+add_library(geek_c geek.c)
