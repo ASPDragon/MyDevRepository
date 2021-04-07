@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ioniancaster/C_C++/lesson_13_3_wt/lesson_13_3_wt.c
+sources/geek.h
+/home/ioniancaster/C_C++/lesson_13_3_wt/sources/geek.h
+
+/home/ioniancaster/C_C++/lesson_13_3_wt/sources/geek.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+time.h
+-
+stdarg.h
+-
+

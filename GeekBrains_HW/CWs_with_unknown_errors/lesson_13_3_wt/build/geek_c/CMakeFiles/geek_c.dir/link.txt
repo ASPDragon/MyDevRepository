@@ -1,0 +1,2 @@
+/bin/ar qc libgeek_c.a  CMakeFiles/geek_c.dir/geek.c.o
+/bin/ranlib libgeek_c.a

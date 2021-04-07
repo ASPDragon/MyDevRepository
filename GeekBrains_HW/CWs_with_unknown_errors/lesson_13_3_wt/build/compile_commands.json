@@ -1,0 +1,12 @@
+[
+{
+  "directory": "/home/ioniancaster/C_C++/lesson_13_3_wt/build",
+  "command": "/bin/c99-gcc  -I/home/ioniancaster/C_C++/lesson_13_3_wt -I/geek_c  -g   -o CMakeFiles/lesson_13_3_wt.dir/lesson_13_3_wt.c.o   -c /home/ioniancaster/C_C++/lesson_13_3_wt/lesson_13_3_wt.c",
+  "file": "/home/ioniancaster/C_C++/lesson_13_3_wt/lesson_13_3_wt.c"
+},
+{
+  "directory": "/home/ioniancaster/C_C++/lesson_13_3_wt/build/geek_c",
+  "command": "/bin/c99-gcc   -g   -o CMakeFiles/geek_c.dir/geek.c.o   -c /home/ioniancaster/C_C++/lesson_13_3_wt/geek_c/geek.c",
+  "file": "/home/ioniancaster/C_C++/lesson_13_3_wt/geek_c/geek.c"
+}
+]

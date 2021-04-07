@@ -1,0 +1,2 @@
+/bin/ar qc libsources.a  CMakeFiles/sources.dir/geek.c.o
+/bin/ranlib libsources.a
