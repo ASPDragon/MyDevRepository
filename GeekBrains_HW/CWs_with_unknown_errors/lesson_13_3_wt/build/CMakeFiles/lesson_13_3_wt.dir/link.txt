@@ -1,0 +1,1 @@
+/bin/c99-gcc -g  -rdynamic CMakeFiles/lesson_13_3_wt.dir/lesson_13_3_wt.c.o  -o lesson_13_3_wt  geek_c/libgeek_c.a 
